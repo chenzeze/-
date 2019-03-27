@@ -89,35 +89,36 @@
 </head>
 
 <body>
-	<div data-vide-bg="video/sea" class="video">
-		<div class="center-container">
-			<div class="container">
-				<div class="navigation">
-					<div class="navigation-right animated wow slideInLeft" data-wow-delay="300ms">
-						<span class="menu"><img src="images/menu.png" alt=" " /></span>
-						<nav class="link-effect-4" id="link-effect-4">
-							<ul class="nav1 nav nav-wil">
-								<li class="active"><a data-hover="首页" href="index.html">首页</a></li>
-								<li><a data-hover="简单介绍" href="#services" class="scroll">简单介绍</a></li>
-								<li><a data-hover="功能" href="#about" class="scroll">功能</a></li>
-								<li><a data-hover="绣法与制作特点" href="#about3" class="scroll">绣法与制作特点</a></li>
-								<li><a data-hover="品种及分布地区" href="#gallery" class="scroll">品种及分布地区</a></li>
-								<li><a data-hover="适用人群及戴法" href="#about2" class="scroll">适用人群及戴法</a></li>
-								<!-- <li><a data-hover="Mail Us" href="#footer" class="scroll">结尾语</a></li> -->
-							</ul>
-						</nav>
-					</div>
-					<script>
-						$("span.menu").click(function () {
-							$("ul.nav1").slideToggle(300, function () {
-								// Animation complete.
-							});
-						});
-					</script>
-					<!-- /script-for-menu -->
-				</div>
-				<div class="clearfix"></div>
+	<div class="container" style="position: fixed;z-index: 3;width:100%;">
+		<div class="navigation">
+			<div class="navigation-right animated wow slideInLeft" data-wow-delay="300ms">
+				<span class="menu"><img src="images/menu.png" alt=" " /></span>
+				<nav class="link-effect-4" id="link-effect-4">
+					<ul class="nav1 nav nav-wil">
+						<li class="active"><a data-hover="首页" href="index.html">首页</a></li>
+						<li><a data-hover="简单介绍" href="#services" class="scroll">简单介绍</a></li>
+						<li><a data-hover="功能" href="#about" class="scroll">功能</a></li>
+						<li><a data-hover="绣法与制作特点" href="#about3" class="scroll">绣法与制作特点</a></li>
+						<li><a data-hover="品种及分布地区" href="#gallery" class="scroll">品种及分布地区</a></li>
+						<li><a data-hover="适用人群及戴法" href="#about2" class="scroll">适用人群及戴法</a></li>
+						<!-- <li><a data-hover="Mail Us" href="#footer" class="scroll">结尾语</a></li> -->
+					</ul>
+				</nav>
 			</div>
+			<script>
+				$("span.menu").click(function () {
+					$("ul.nav1").slideToggle(300, function () {
+						// Animation complete.
+					});
+				});
+			</script>
+			<!-- /script-for-menu -->
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div data-vide-bg="video/sea" class="video" style="padding-top: 110px;">
+		<div class="center-container">
+
 			<div class="logo animated wow zoomIn" data-wow-delay="900ms">
 				<h1><a href="index.html">漠之冠</a>
 
